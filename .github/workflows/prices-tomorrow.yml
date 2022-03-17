@@ -1,7 +1,8 @@
 name: prices-tomorrow
 on:
   schedule:
-    - cron: 23 20 * * *
+    # menos una hora
+    - cron: 23 19 * * *
   workflow_dispatch: {}
 
 jobs:
