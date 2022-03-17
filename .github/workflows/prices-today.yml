@@ -1,7 +1,6 @@
 name: prices-today
 on:
   schedule:
-    # menos una hora
     - cron: '55 22 * * *'
   workflow_dispatch: {}
 
