@@ -1,4 +1,4 @@
-name: data
+name: prices-tomorrow
 on:
   schedule:
     - cron: 4 0 * * *
