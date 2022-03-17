@@ -1,7 +1,7 @@
 name: prices-once
 on:
   schedule:
-    - cron: 40 18 * * *
+    - cron: 46 19 * * *
   workflow_dispatch: {}
 
 jobs:
